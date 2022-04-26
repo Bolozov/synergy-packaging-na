@@ -1,0 +1,16 @@
+[23-Feb-2022 23:27:02 UTC] PHP Warning:  require(/home/bbnaxexn/synergy-packaging/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/bbnaxexn/synergy-packaging/public/index.php on line 34
+[23-Feb-2022 23:27:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bbnaxexn/synergy-packaging/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/bbnaxexn/synergy-packaging/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/bbnaxexn/synergy-packaging/public/index.php on line 34
+[23-Feb-2022 23:27:04 UTC] PHP Warning:  require(/home/bbnaxexn/synergy-packaging/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/bbnaxexn/synergy-packaging/public/index.php on line 34
+[23-Feb-2022 23:27:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bbnaxexn/synergy-packaging/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/bbnaxexn/synergy-packaging/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/bbnaxexn/synergy-packaging/public/index.php on line 34
+[23-Feb-2022 23:27:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function php_info() in /home/bbnaxexn/synergy-packaging/public/info.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/bbnaxexn/synergy-packaging/public/info.php on line 3
+[27-Feb-2022 06:37:38 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 2148240 bytes) in /home/bbnaxexn/public_html/synergy-packaging/vendor/barryvdh/laravel-debugbar/src/LaravelDebugbar.php on line 918
+[27-Feb-2022 06:38:37 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 2147280 bytes) in /home/bbnaxexn/public_html/synergy-packaging/vendor/barryvdh/laravel-debugbar/src/LaravelDebugbar.php on line 918
