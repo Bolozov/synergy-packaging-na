@@ -239,7 +239,7 @@
                                 {{ $settings->address }}<br>
                                 <strong>{{ __('app.contact_footer_phone') }}: </strong> <a
                                     href="tel:+{{ $settings->phone_number }}">+{{ $settings->phone_number }}</a><br>
-                                <strong>WhatsApp:</strong>&nbsp;+{{ $settings->phone_number }}<br>
+                                <strong>WhatsApp:</strong> <a href="https://wa.me/{{ substr($settings->phone_number, 4) }}">{{ $settings->phone_number }}</a> <br>
                                 <strong>Email: </strong><a
                                     href="mailto:{{ $settings->contact_mail }}">{{ $settings->contact_mail }}</a><br>
                             </p>
